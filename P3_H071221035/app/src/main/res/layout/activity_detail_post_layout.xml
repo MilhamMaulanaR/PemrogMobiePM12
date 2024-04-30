@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/adpl_image_profile"
+                android:layout_margin="15dp"
+                android:src="@drawable/ic_launcher_background"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adpl_username"
+                android:text="username"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/adpl_post"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adpl_caption"
+            android:text="Caption Caption Caption"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

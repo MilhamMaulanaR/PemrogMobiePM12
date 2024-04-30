@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/outline_flag_24" />
+    <item
+        android:id="@+id/posting"
+        android:title="Posting"
+        android:icon="@drawable/outline_add_circle_24"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/outline_person_24"/>
+</menu>

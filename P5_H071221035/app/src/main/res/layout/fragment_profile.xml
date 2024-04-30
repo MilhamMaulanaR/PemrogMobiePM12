@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="RAMOS"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/ap_iv_profile"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="ramos69uhuy"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_below="@id/ap_tv_name"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
